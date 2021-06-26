@@ -1,0 +1,20 @@
+{
+  "name": "intern-test",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server",
+    "start": "nodemon server"
+  },
+  "author": "happydesk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.15",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
